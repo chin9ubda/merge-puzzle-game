@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>사이트 소개 — 미니게임 포털</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='13' font-size='13'%3E%F0%9F%8E%AE%3C/text%3E%3C/svg%3E" />
+<style>
+  :root {
+    --bg: #faf8ef;
+    --card: #ffffff;
+    --text: #776e65;
+    --muted: #9a8f82;
+    --accent: #8f7a66;
+    --line: #e8e1d4;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Clear Sans", "Helvetica Neue", Arial, "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.75;
+    word-break: keep-all;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px 18px 60px;
+  }
+  .back {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .back:hover { text-decoration: underline; }
+  h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text);
+    margin: 0 0 6px;
+    line-height: 1.2;
+  }
+  .lead {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0 0 24px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-size: 19px;
+    font-weight: 800;
+    color: var(--text);
+    margin: 0 0 10px;
+  }
+  p { margin: 0 0 12px; font-size: 15px; }
+  p:last-child { margin-bottom: 0; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { margin-bottom: 8px; font-size: 15px; }
+  a { color: var(--accent); }
+  .placeholder {
+    display: inline-block;
+    background: #fff4d6;
+    border: 1px dashed #e0c46a;
+    border-radius: 4px;
+    padding: 1px 8px;
+    color: #8a6d1f;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .updated {
+    margin-top: 24px;
+    color: var(--muted);
+    font-size: 13px;
+    text-align: center;
+  }
+  @media (max-width: 480px) {
+    h1 { font-size: 24px; }
+    .card { padding: 16px 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="./">← 게임으로 돌아가기</a>
+
+  <h1>사이트 소개</h1>
+  <p class="lead">설치도 회원가입도 없이 즐기는 무료 미니게임 포털</p>
+
+  <div class="card">
+    <h2>어떤 사이트인가요?</h2>
+    <p>본 사이트는 웹 브라우저만 있으면 누구나 바로 즐길 수 있는 무료 미니게임 포털입니다. 앱을 따로 내려받거나 프로그램을 설치할 필요가 없고, 회원가입이나 로그인 절차도 없습니다. 링크를 열면 곧바로 게임 화면이 나타나며, PC와 모바일 어디서든 동일하게 플레이할 수 있도록 만들어졌습니다.</p>
+    <p>가볍게 머리를 식히고 싶을 때, 잠깐의 자투리 시간을 알차게 보내고 싶을 때 부담 없이 찾아올 수 있는 공간을 목표로 합니다. 복잡한 튜토리얼 없이도 직관적으로 조작할 수 있도록 각 게임의 화면과 규칙을 정리했습니다.</p>
+  </div>
+
+  <div class="card">
+    <h2>제공하는 게임</h2>
+    <ul>
+      <li><strong><a href="./games/merge.html">2048 머지퍼즐</a></strong> — 같은 숫자 타일을 밀어 합치며 더 큰 수를 만들어 가는 숫자 퍼즐입니다. 간단한 규칙이지만 한 수 앞을 내다보는 전략이 필요해 오래 붙잡게 되는 대표적인 두뇌 게임입니다.</li>
+      <li><strong><a href="./games/sudoku.html">스도쿠</a></strong> — 가로·세로·박스에 숫자가 겹치지 않게 채우는 고전 숫자 퍼즐입니다. 기본 9×9뿐 아니라 더 넓은 16×16 크기까지 선택할 수 있어 난이도와 몰입감을 취향대로 고를 수 있습니다.</li>
+      <li><strong><a href="./games/breakout.html">벽돌깨기</a></strong> — 패들로 공을 튕겨 화면 위쪽의 벽돌을 모두 부수는 아케이드 게임입니다. 공의 각도를 조절하는 손맛과 점점 빨라지는 속도감이 매력입니다.</li>
+    </ul>
+    <p>전체 게임 목록과 최신 소식은 <a href="./index.html">홈 화면</a>에서 한눈에 확인할 수 있습니다.</p>
+  </div>
+
+  <div class="card">
+    <h2>운영 원칙과 콘텐츠 방침</h2>
+    <p>본 사이트는 Google AdSense 광고를 통해 무료로 운영됩니다. 광고 덕분에 이용자에게 별도의 요금을 받지 않고 모든 게임을 제공할 수 있습니다.</p>
+    <p>또한 이름·이메일·전화번호 같은 개인 식별 정보를 수집하지 않습니다. 게임 진행에 필요한 최고 점수만 이용자의 브라우저에 저장되며 외부 서버로 전송되지 않습니다. 자세한 내용은 <a href="./privacy.html">개인정보처리방침</a>에서 확인할 수 있습니다.</p>
+    <p>각 게임에는 기본 규칙과 함께 초보자를 위한 전략·공략 가이드를 제공하여, 처음 접하는 이용자도 재미를 놓치지 않도록 돕고 있습니다. 앞으로도 완성도 높은 미니게임과 알찬 가이드 콘텐츠를 꾸준히 추가해 나갈 예정입니다.</p>
+  </div>
+
+  <div class="card">
+    <h2>더 알아보기</h2>
+    <p>궁금한 점이나 제안이 있다면 <a href="./contact.html">문의하기</a> 페이지를 이용해 주세요. 개인정보 처리에 관한 안내는 <a href="./privacy.html">개인정보처리방침</a>에서 확인하실 수 있습니다.</p>
+  </div>
+</div>
+</body>
+</html>
